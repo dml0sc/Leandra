@@ -55,6 +55,6 @@ h3 {
 }
 
 // Rimuovi sfondo dai link nel body
-.center a {
-  background-color: transparent;
+article a, .center a, p a, li a {
+  background-color: transparent !important;
 }
