@@ -1,10 +1,21 @@
 ---
-title: My GitHub Pages Notebook!
+title: Leandra
 ---
 
-Hello world!
+# Leandra
 
-Write some words here!
-Rewrite some words here!
+Un giardino digitale per pensare in pubblico.
 
-Scriviamo alcune parole qui per riconoscimento
+Questo spazio raccoglie idee in evoluzione — frammenti, connessioni, intuizioni che maturano nel tempo. Non è un blog: le note cambiano, si collegano, crescono.
+
+## Esplorazioni recenti
+
+- [[La città come metafora cognitiva]]
+- [[Frammenti sul collezionismo]]
+- [[Il paradosso dell'archivio vivente]]
+
+## Come navigare
+
+Usa i **wikilinks** per saltare tra le note. Il **grafo** mostra le connessioni. I **backlinks** rivelano cosa punta qui.
+
+Ogni nota è un cantiere aperto.
