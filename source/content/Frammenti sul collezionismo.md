@@ -13,6 +13,9 @@ Walter Benjamin vedeva nel collezionista una figura dialettica: libera gli ogget
 
 ## La Wunderkammer come epistemologia
 
+![Wunderkammer di Ferrante Imperato, Napoli, 1599](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ferrante_Imperato_Cabinet_of_Curiosities_1599.jpg/1280px-Ferrante_Imperato_Cabinet_of_Curiosities_1599.jpg)
+*Wunderkammer di Ferrante Imperato, Napoli, 1599. Una delle prime rappresentazioni di una camera delle meraviglie.*
+
 Le camere delle meraviglie del Cinquecento non erano musei primitivi — erano modelli del cosmo. Naturalia, artificialia, scientifica: tutto conviveva perché tutto era connesso. Prima della classificazione linneana, prima dei dipartimenti universitari.
 
 Forse il [[La città come metafora cognitiva|pensiero per città]] recupera qualcosa di quella totalità perduta.
