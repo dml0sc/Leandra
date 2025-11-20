@@ -3,11 +3,39 @@
 // put your custom CSS here!
 
 html {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 @media (min-width: 1200px) {
   html {
-    font-size: 21px;
+    font-size: 20px;
   }
+}
+
+// Titoli più discreti, integrati nel testo
+h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+// Titolo pagina principale
+.article-title {
+  font-size: 1.8rem;
+  font-weight: 600;
 }
