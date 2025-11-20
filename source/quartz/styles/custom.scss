@@ -53,3 +53,8 @@ h3 {
 .search {
   font-size: 0.75rem;
 }
+
+// Rimuovi sfondo dai link nel body
+.center a {
+  background-color: transparent;
+}
