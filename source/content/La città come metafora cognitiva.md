@@ -2,7 +2,6 @@
 title: La città come metafora cognitiva
 ---
 
-# La città come metafora cognitiva
 
 La città non è solo un luogo fisico — è un modo di organizzare il pensiero. Ogni quartiere ha una funzione, ogni strada una direzione, ogni piazza un punto d'incontro.
 

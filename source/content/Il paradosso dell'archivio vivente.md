@@ -2,7 +2,6 @@
 title: Il paradosso dell'archivio vivente
 ---
 
-# Il paradosso dell'archivio vivente
 
 Un archivio tradizionale conserva il morto. Un archivio vivente dovrebbe conservare il vivo — ma può?
 

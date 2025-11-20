@@ -2,7 +2,6 @@
 title: Arte della memoria
 ---
 
-# Arte della memoria
 
 Tecnica mnemonica antica che usa luoghi e immagini per ricordare. Descritta da Cicerone, Quintiliano, e nel Rinascimento da Giordano Bruno.
 

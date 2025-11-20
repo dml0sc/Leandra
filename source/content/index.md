@@ -2,7 +2,6 @@
 title: Leandra
 ---
 
-# Leandra
 
 Un giardino digitale per pensare in pubblico.
 

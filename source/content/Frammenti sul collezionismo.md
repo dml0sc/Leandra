@@ -2,7 +2,6 @@
 title: Frammenti sul collezionismo
 ---
 
-# Frammenti sul collezionismo
 
 Il collezionista non accumula oggetti — costruisce un mondo. Ogni pezzo è un frammento di senso che trova posto in una costellazione personale.
 
