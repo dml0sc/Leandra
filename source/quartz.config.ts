@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Playfair Display",
-        body: "Crimson Pro",
+        body: "Literata",
         code: "JetBrains Mono",
       },
       colors: {
