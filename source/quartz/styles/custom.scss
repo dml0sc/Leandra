@@ -41,15 +41,15 @@ h3 {
 }
 
 // Sidebar più piccola
-.sidebar {
-  font-size: 0.85rem;
+.sidebar, .left, .right {
+  font-size: 0.75rem;
 }
 
-.explorer, .toc, .backlinks, .graph {
-  font-size: 0.85rem;
+.explorer, .toc, .backlinks, .graph, .recent-notes {
+  font-size: 0.75rem;
 }
 
 // Search box
 .search {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
 }
