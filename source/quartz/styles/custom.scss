@@ -58,3 +58,9 @@ h3 {
 article a, .center a, p a, li a {
   background-color: transparent !important;
 }
+
+// Metadata (data, tempo lettura) più piccolo e sans-serif
+.content-meta {
+  font-size: 0.75rem;
+  font-family: var(--headerFont);
+}
