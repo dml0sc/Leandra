@@ -2,12 +2,9 @@
 title: Frammenti sul collezionismo
 ---
 
-
-Il collezionista non accumula oggetti — costruisce un mondo. Ogni pezzo è un frammento di senso che trova posto in una costellazione personale.
+C'è qualcosa di perturbante nel gesto del collezionista. Non è avidità, non è accumulo, non è nemmeno nostalgia — o almeno non solo. È piuttosto un tentativo di ricomporre un ordine perduto, di costruire un cosmo privato dove ogni oggetto trova il suo posto in una costellazione di senso. Il collezionista libera le cose dalla tirannia dell'uso, le sottrae al circuito dell'utilità, ma nel farlo le imprigiona in un nuovo regime: quello dell'appartenenza, della serie, del sistema. Walter Benjamin lo aveva capito: il collezionista è un allegorista che ha smarrito la chiave del proprio codice. Eppure continua a raccogliere, a ordinare, a disporre — come se nel gesto stesso ci fosse già tutto il significato.
 
 ## Benjamin e il collezionista
-
-Walter Benjamin vedeva nel collezionista una figura dialettica: libera gli oggetti dalla schiavitù dell'utilità, ma li imprigiona in un nuovo ordine. Il collezionista è un allegorista che ha perso la chiave.
 
 > "Il vero metodo per rendersi presenti le cose è di figurarsele nel nostro spazio (e non di figurarci noi nel loro)."
 
@@ -25,3 +22,7 @@ Forse il [[La città come metafora cognitiva|pensiero per città]] recupera qual
 Un archivio digitale può contenere infiniti oggetti senza occupare spazio. Ma il collezionismo richiede scarsità, scelta, sacrificio. Cosa significa collezionare quando tutto è disponibile?
 
 Vedi anche: [[Il paradosso dell'archivio vivente]]
+
+---
+
+# Frammenti sul collezionismo
