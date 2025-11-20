@@ -34,10 +34,9 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
-// Titolo pagina principale
+// Nascondi titolo pagina principale (esperimento colophon)
 .article-title {
-  font-size: 1.8rem;
-  font-weight: 600;
+  display: none;
 }
 
 // Sidebar più piccola
