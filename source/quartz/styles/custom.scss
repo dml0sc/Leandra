@@ -64,12 +64,12 @@ article a, .center a, p a, li a {
   font-family: var(--headerFont);
 }
 
-// Caption immagini
-article img + em, p > em:only-child {
+// Caption immagini (solo dopo img)
+p:has(> img) + p > em:only-child {
   display: block;
   font-size: 0.7rem;
   font-family: var(--headerFont);
   font-style: normal;
   color: var(--darkgray);
-  margin-top: 0.5rem;
+  margin-top: -0.5rem;
 }
