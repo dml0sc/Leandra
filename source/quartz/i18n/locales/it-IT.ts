@@ -36,7 +36,7 @@ export default {
       createdWith: "Creato con",
     },
     graph: {
-      title: "Vista grafico",
+      title: "Grafo",
     },
     recentNotes: {
       title: "Note recenti",
@@ -65,7 +65,7 @@ export default {
     error: {
       title: "Non trovato",
       notFound: "Questa pagina è privata o non esiste.",
-      home: "Ritorna alla home page",
+      home: "Ritorna alla Base",
     },
     folderContent: {
       folder: "Cartella",

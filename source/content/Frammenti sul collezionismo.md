@@ -10,9 +10,6 @@ C'è qualcosa di perturbante nel gesto del collezionista. Non è avidità, non �
 
 ## La Wunderkammer come epistemologia
 
-![Test immagine](./assets/test-image.jpg)
-*Placeholder — sostituire con immagine della Wunderkammer di Ferrante Imperato, Napoli, 1599.*
-
 Le camere delle meraviglie del Cinquecento non erano musei primitivi — erano modelli del cosmo. Naturalia, artificialia, scientifica: tutto conviveva perché tutto era connesso. Prima della classificazione linneana, prima dei dipartimenti universitari.
 
 Forse il [[La città come metafora cognitiva|pensiero per città]] recupera qualcosa di quella totalità perduta.
