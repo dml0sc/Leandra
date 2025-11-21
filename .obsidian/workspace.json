@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/content/Frammenti sul collezionismo.md",
+                "file": "source/docs/philosophy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frammenti sul collezionismo"
+              "title": "philosophy"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/content/Frammenti sul collezionismo.md",
+                "file": "source/docs/philosophy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Frammenti sul collezionismo"
+              "title": "Backlinks for philosophy"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/content/Frammenti sul collezionismo.md",
+                "file": "source/docs/philosophy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Frammenti sul collezionismo"
+              "title": "Outgoing links from philosophy"
             }
           },
           {
@@ -170,8 +170,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62dea27485c8919a",
+  "active": "917ce8bf5d892595",
   "lastOpenFiles": [
+    "source/content/Abitare il digitale.md",
+    "source/content/Frammenti sul collezionismo.md",
     "source/content/category-folder/Some note from November.md",
     "source/quartz/components/Breadcrumbs.tsx.tmp.85762.1763710545584",
     "source/quartz/i18n/locales/it-IT.ts.tmp.85762.1763710519736",
@@ -188,7 +190,6 @@
     "source/quartz/styles/custom.scss.tmp.85762.1763665537739",
     "source/content/arte della memoria.md",
     "source/content/Il paradosso dell'archivio vivente.md",
-    "source/content/Frammenti sul collezionismo.md",
     "source/content/La città come metafora cognitiva.md",
     "source/content/category-folder/Some note.md",
     "source/content/category-folder/index.md",
