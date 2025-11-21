@@ -27,7 +27,3 @@ Questo non significa rifiutare la tecnologia o tornare a un passato idealizzato.
 Il termine che emerge da questa riflessione è agentic computing: un modo di pensare software e infrastrutture che mette al centro la capacità degli utenti di intervenire sul proprio ambiente. Non si tratta solo di open source o di decentralizzazione — si tratta di progettare per l'imprevisto, per la creatività quotidiana, per quella che potremmo chiamare la folk-culture del digitale.
 
 In fondo, la posta in gioco è questa: vogliamo un web dove possiamo agire, o un web dove possiamo solo reagire? Vogliamo abitare i nostri spazi digitali, o solo attraversarli? La risposta non è scontata, e non dipende solo dalla tecnologia. Dipende da cosa decidiamo di costruire, e per chi.
-
----
-
-# Abitare il digitale
