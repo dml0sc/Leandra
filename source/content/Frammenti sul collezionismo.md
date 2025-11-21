@@ -19,7 +19,3 @@ Forse il [[La città come metafora cognitiva|pensiero per città]] recupera qual
 Un archivio digitale può contenere infiniti oggetti senza occupare spazio. Ma il collezionismo richiede scarsità, scelta, sacrificio. Cosa significa collezionare quando tutto è disponibile?
 
 Vedi anche: [[Il paradosso dell'archivio vivente]]
-
----
-
-# Frammenti sul collezionismo
