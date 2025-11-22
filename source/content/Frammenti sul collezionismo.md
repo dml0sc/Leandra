@@ -18,4 +18,10 @@ Forse il [[La città come metafora cognitiva|pensiero per città]] recupera qual
 
 Un archivio digitale può contenere infiniti oggetti senza occupare spazio. Ma il collezionismo richiede scarsità, scelta, sacrificio. Cosa significa collezionare quando tutto è disponibile?
 
+| Tipo di collezione | Materialità | Scarsità | Aura |
+|-------------------|-------------|----------|------|
+| Fisica | Alta | Reale | Presente |
+| Digitale | Nulla | Artificiale | Assente? |
+| NFT | Ibrida | Costruita | Simulata |
+
 Vedi anche: [[Il paradosso dell'archivio vivente]]
