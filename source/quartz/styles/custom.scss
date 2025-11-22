@@ -2,6 +2,35 @@
 
 // put your custom CSS here!
 
+// Effetto luce filtrata (blinds)
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 50px,
+    rgba(0, 0, 0, 0.03) 50px,
+    rgba(0, 0, 0, 0.03) 52px
+  );
+}
+
+[saved-theme="dark"] body::before {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 30px,
+    rgba(0, 0, 0, 0.15) 30px,
+    rgba(0, 0, 0, 0.15) 34px
+  );
+}
+
 html {
   font-size: 18px;
 }
