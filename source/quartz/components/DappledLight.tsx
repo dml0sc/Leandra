@@ -1,21 +1,18 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const DappledLight: QuartzComponent = () => {
-  // Genera shutters con altezze variabili per effetto irregolare
-  const shutterHeights = [
-    2, 3, 2, 4, 2, 3, 5, 2, 3, 2, 4, 3, 2, 5, 3, 2, 4, 2, 3, 2, 5, 3, 2, 4, 2
-  ]
+  // 25 shutters come in Zhao
+  const shutters = Array(25).fill(null)
 
   return (
     <div id="dappled-light">
       <div id="glow"></div>
       <div id="glow-bounce"></div>
       <div class="perspective">
-        <div id="leaves"></div>
         <div id="blinds">
           <div class="shutters">
-            {shutterHeights.map((height, i) => (
-              <div class="shutter" style={{ height: `${height}px` }} key={i}></div>
+            {shutters.map((_, i) => (
+              <div class="shutter" key={i}></div>
             ))}
           </div>
           <div class="vertical">
@@ -30,120 +27,103 @@ const DappledLight: QuartzComponent = () => {
 
 DappledLight.css = `
 #dappled-light {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   pointer-events: none;
-  z-index: 0;
-  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  isolation: isolate;
+  --shadow: #1a1917;
+  --bounce-light: #fffffc;
+  --timing-fn: cubic-bezier(0.455, 0.19, 0, 0.985);
+}
+
+[saved-theme="dark"] #dappled-light {
+  --shadow: #030307;
+  --bounce-light: #1b293f;
 }
 
 #glow {
   position: absolute;
-  top: -20%;
-  left: -10%;
-  width: 60%;
-  height: 60%;
-  background: radial-gradient(ellipse at center, rgba(255, 250, 240, 0.15) 0%, transparent 70%);
-  filter: blur(40px);
-}
-
-[saved-theme="dark"] #glow {
-  background: radial-gradient(ellipse at center, rgba(255, 200, 100, 0.08) 0%, transparent 70%);
+  background: linear-gradient(309deg, var(--bounce-light), var(--bounce-light) 20%, transparent);
+  transition: background 1s var(--timing-fn);
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
 }
 
 #glow-bounce {
   position: absolute;
-  bottom: -10%;
-  right: -10%;
-  width: 40%;
-  height: 40%;
-  background: radial-gradient(ellipse at center, rgba(255, 250, 240, 0.1) 0%, transparent 70%);
-  filter: blur(30px);
-}
-
-[saved-theme="dark"] #glow-bounce {
-  background: radial-gradient(ellipse at center, rgba(255, 200, 100, 0.05) 0%, transparent 70%);
+  background: linear-gradient(355deg, var(--bounce-light) 0%, transparent 30%, transparent 100%);
+  transition: background 1s var(--timing-fn);
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
 }
 
 .perspective {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  perspective: 1000px;
+  transition: transform 1.7s var(--timing-fn), opacity 4s ease;
+  top: -30vh;
+  right: 0;
+  width: 80vw;
+  height: 130vh;
+  opacity: 0.07;
+  background-blend-mode: darken;
+  transform-origin: top right;
+  transform-style: preserve-3d;
+  transform: matrix3d(0.75, -0.0625, 0, 0.0008, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 }
 
-#leaves {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(ellipse at 20% 20%, rgba(100, 140, 100, 0.03) 0%, transparent 50%),
-              radial-gradient(ellipse at 80% 60%, rgba(100, 140, 100, 0.02) 0%, transparent 40%);
-}
-
-[saved-theme="dark"] #leaves {
-  background: radial-gradient(ellipse at 20% 20%, rgba(80, 120, 80, 0.05) 0%, transparent 50%),
-              radial-gradient(ellipse at 80% 60%, rgba(80, 120, 80, 0.03) 0%, transparent 40%);
+[saved-theme="dark"] .perspective {
+  opacity: 0.3;
+  transform: matrix3d(0.8333, 0.0833, 0, 0.0003, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 }
 
 #blinds {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
-  height: 100%;
-  transform: rotateX(5deg);
-  transform-origin: top center;
 }
 
-.shutters {
+#blinds .shutter,
+#blinds .bar {
+  background-color: var(--shadow);
+}
+
+#blinds .shutter {
+  width: 100%;
+  height: 40px;
+  transition: height 1s var(--timing-fn);
+}
+
+[saved-theme="dark"] #blinds .shutter {
+  height: 80px;
+}
+
+#blinds .shutters {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 100%;
-  gap: 45px;
-  padding: 20px 0;
+  align-items: end;
+  gap: 60px;
+  transition: gap 1s var(--timing-fn);
 }
 
-[saved-theme="dark"] .shutters {
-  gap: 25px;
+[saved-theme="dark"] #blinds .shutters {
+  gap: 20px;
 }
 
-.shutter {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.04);
-  flex-shrink: 0;
-}
-
-[saved-theme="dark"] .shutter {
-  background-color: rgba(0, 0, 0, 0.12);
-}
-
-.vertical {
-  position: absolute;
+#blinds > .vertical {
   top: 0;
-  left: 0;
-  width: 100%;
+  position: absolute;
   height: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  pointer-events: none;
 }
 
-.bar {
-  width: 2px;
+#blinds > .vertical > .bar {
+  width: 12px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.02);
-}
-
-[saved-theme="dark"] .bar {
-  background-color: rgba(0, 0, 0, 0.08);
 }
 `
 
