@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { FullSlug, SimpleSlug, resolveRelative } from "../util/path"
+import { SimpleSlug, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { byDateAndAlphabetical } from "./PageList"
 import style from "./styles/recentNotes.scss"
@@ -13,6 +13,7 @@ interface Options {
   limit: number
   linkToMore: SimpleSlug | false
   showTags: boolean
+  showDate: boolean
   filter: (f: QuartzPluginData) => boolean
   sort: (f1: QuartzPluginData, f2: QuartzPluginData) => number
 }
@@ -21,6 +22,7 @@ const defaultOptions = (cfg: GlobalConfiguration): Options => ({
   limit: 3,
   linkToMore: false,
   showTags: true,
+  showDate: true,
   filter: () => true,
   sort: byDateAndAlphabetical(cfg),
 })
@@ -40,8 +42,7 @@ export default ((userOpts?: Partial<Options>) => {
         <h3>{opts.title ?? i18n(cfg.locale).components.recentNotes.title}</h3>
         <ul class="recent-ul">
           {pages.slice(0, opts.limit).map((page) => {
-            const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
-            const tags = page.frontmatter?.tags ?? []
+            const title = page.frontmatter?.title
 
             return (
               <li class="recent-li">
@@ -53,24 +54,10 @@ export default ((userOpts?: Partial<Options>) => {
                       </a>
                     </h3>
                   </div>
-                  {page.dates && (
+                  {opts.showDate && page.dates && (
                     <p class="meta">
                       <Date date={getDate(cfg, page)!} locale={cfg.locale} />
                     </p>
-                  )}
-                  {opts.showTags && (
-                    <ul class="tags">
-                      {tags.map((tag) => (
-                        <li>
-                          <a
-                            class="internal tag-link"
-                            href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
-                          >
-                            {tag}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
                   )}
                 </div>
               </li>

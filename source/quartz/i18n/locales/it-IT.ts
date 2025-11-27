@@ -22,12 +22,15 @@ export default {
       quote: "Citazione",
     },
     backlinks: {
-      title: "Link entranti",
-      noBacklinksFound: "Nessun link entrante",
+      title: "Agganci",
+      noBacklinksFound: "Nessun aggancio",
     },
     themeToggle: {
       lightMode: "Tema chiaro",
       darkMode: "Tema scuro",
+    },
+    readerMode: {
+      title: "Modalità lettura",
     },
     explorer: {
       title: "Esplora",
@@ -40,7 +43,7 @@ export default {
     },
     recentNotes: {
       title: "Note recenti",
-      seeRemainingMore: ({ remaining }) => `Vedi ${remaining} altro →`,
+      seeRemainingMore: ({ remaining }) => `Vedi altro →`,
     },
     transcludes: {
       transcludeOf: ({ targetSlug }) => `Transclusione di ${targetSlug}`,
@@ -51,7 +54,7 @@ export default {
       searchBarPlaceholder: "Cerca qualcosa",
     },
     tableOfContents: {
-      title: "Tabella dei contenuti",
+      title: "Sommario",
     },
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} minuti`,
@@ -65,7 +68,7 @@ export default {
     error: {
       title: "Non trovato",
       notFound: "Questa pagina è privata o non esiste.",
-      home: "Ritorna alla Base",
+      home: "Ritorna alla home page",
     },
     folderContent: {
       folder: "Cartella",

@@ -1,5 +1,6 @@
 ---
 title: Abitare il digitale
+date: 2025-11-22
 ---
 
 C'è stato un tempo in cui il web era un luogo da abitare. Non solo da visitare, non solo da consumare — ma da costruire, modificare, piegare alle proprie esigenze. Era un ambiente malleabile, sperimentale, dove ogni pagina poteva essere smontata e rimontata, dove il codice sorgente era a portata di clic e l'idea stessa di "utente" non implicava passività. Era un web artigianale, fatto di piccoli gesti creativi, di homepage personali, di forum autogestiti, di software scritto per risolvere problemi specifici e condiviso con chi poteva averne bisogno.

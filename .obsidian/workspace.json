@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/docs/philosophy.md",
+                "file": "CUSTOMIZATIONS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "philosophy"
+              "title": "CUSTOMIZATIONS"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/docs/philosophy.md",
+                "file": "CUSTOMIZATIONS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from philosophy"
+              "title": "Outgoing links from CUSTOMIZATIONS"
             }
           },
           {
@@ -172,32 +172,51 @@
   },
   "active": "917ce8bf5d892595",
   "lastOpenFiles": [
-    "source/quartz/components/DappledLight.tsx.tmp.85762.1763799318908",
-    "source/quartz/styles/custom.scss.tmp.85762.1763798047453",
-    "source/quartz/components/DappledLight.tsx",
-    "source/quartz/styles/custom.scss.tmp.85762.1763797200678",
     "source/content/Abitare il digitale.md",
-    "source/content/Frammenti sul collezionismo.md",
-    "source/content/category-folder/Some note from November.md",
-    "source/quartz/components/Breadcrumbs.tsx.tmp.85762.1763710545584",
-    "source/quartz/i18n/locales/it-IT.ts.tmp.85762.1763710519736",
-    "source/content/Frammenti sul collezionismo.md.tmp.85762.1763709769126",
-    "source/quartz/styles/custom.scss.tmp.85762.1763709534922",
-    "source/content/Frammenti sul collezionismo.md.tmp.85762.1763666075994",
-    "source/content/assets/test-image.jpg",
-    "source/content/assets/wunderkammer.jpg",
-    "source/content/assets/wunderkammer-imperato.jpg",
-    "source/content/assets",
-    "source/content/Frammenti sul collezionismo.md.tmp.85762.1763665899315",
+    "The Fountain/A Brief History & Ethos of the Digital Garden.md",
+    "The Fountain",
+    "source/public/index-og-image.webp",
+    "source/public/category-folder/index-og-image.webp",
+    "source/public/category-folder/Some-note-from-November-og-image.webp",
+    "source/public/arte-della-memoria-og-image.webp",
+    "source/public/La-città-come-metafora-cognitiva-og-image.webp",
+    "source/public/Il-paradosso-dell'archivio-vivente-og-image.webp",
+    "source/public/Frammenti-sul-collezionismo-og-image.webp",
+    "source/public/static/giscus/light.css",
+    "source/public/static/giscus/dark.css",
+    "source/public/static/giscus",
+    "source/public/static/font/font-style.css",
+    "source/public/static/font/biro_script_standard_us.woff2",
+    "source/public/static/font/biro_script_standard_us.woff",
+    "source/public/static/font",
+    "source/public/static/texture.png",
+    "source/public/static/pines.png",
+    "source/public/static/ornament.svg",
+    "source/public/index.html",
+    "source/public/category-folder/Some-note-from-November.html",
     "source/content/arte della memoria.md",
-    "source/content/Il paradosso dell'archivio vivente.md",
+    "source/content/category-folder/Some note from November.md",
+    "source/CODE_OF_CONDUCT.md",
+    "CUSTOMIZATIONS.md",
     "source/content/La città come metafora cognitiva.md",
-    "source/content/category-folder/Some note.md",
-    "source/content/category-folder/index.md",
-    "source/content/index.md",
-    "README.md",
-    "source/README.md",
-    "source/docs/advanced/architecture.md",
-    "source/CODE_OF_CONDUCT.md"
+    "source/content/Il paradosso dell'archivio vivente.md",
+    "source/content/Frammenti sul collezionismo.md",
+    "source/docs/philosophy.md",
+    "source/node_modules/tsx/node_modules/@esbuild/darwin-arm64/README.md",
+    "source/node_modules/@esbuild/darwin-arm64/README.md",
+    "source/node_modules/pixi.js/README.md",
+    "source/node_modules/fetch-ponyfill/node_modules/node-fetch/README.md",
+    "source/node_modules/fetch-ponyfill/node_modules/node-fetch/LICENSE.md",
+    "source/node_modules/cliui/node_modules/strip-ansi/readme.md",
+    "source/node_modules/cliui/node_modules/emoji-regex/README.md",
+    "source/node_modules/@citation-js/core/README.md",
+    "source/node_modules/@citation-js/core/LICENSE.md",
+    "source/node_modules/gray-matter/node_modules/js-yaml/README.md",
+    "source/node_modules/gray-matter/node_modules/js-yaml/CHANGELOG.md",
+    "source/node_modules/cliui/node_modules/ansi-regex/readme.md",
+    "source/node_modules/cliui/node_modules/string-width/readme.md",
+    "source/node_modules/cliui/node_modules/wrap-ansi/readme.md",
+    "source/node_modules/fetch-ponyfill/node_modules/webidl-conversions/LICENSE.md",
+    "source/node_modules/fetch-ponyfill/node_modules/webidl-conversions/README.md"
   ]
 }

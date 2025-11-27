@@ -2,22 +2,21 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
- * Quartz 4.0 Configuration
+ * Quartz 4 Configuration
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Leandra",
-    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "it-IT",
-    baseUrl: "dml0sc.github.io/Leandra",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "leandra.xyz",
+    ignorePatterns: ["private", "templates"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
@@ -31,24 +30,24 @@ const config: QuartzConfig = {
         lightMode: {
           light: "#fdfbf7",
           lightgray: "#e8e4dc",
-          gray: "#9a948a",
-          darkgray: "#4a4540",
-          dark: "#2d2926",
+          gray: "#9c9384",
+          darkgray: "#4a4a4a",
+          dark: "#2b2b2b",
           secondary: "#8b4513",
-          tertiary: "#6b8e7a",
-          highlight: "rgba(139, 69, 19, 0)",
-          textHighlight: "#f5e6d3",
+          tertiary: "#7a9982",
+          highlight: "rgba(139, 69, 19, 0.15)",
+          textHighlight: "#fff23688",
         },
         darkMode: {
           light: "#1a1816",
           lightgray: "#2d2926",
-          gray: "#6b6560",
-          darkgray: "#c4beb5",
-          dark: "#f5f1ea",
+          gray: "#6b6359",
+          darkgray: "#d4cfc7",
+          dark: "#f5f0e8",
           secondary: "#d4a574",
-          tertiary: "#8fbc8f",
-          highlight: "rgba(212, 165, 116, 0)",
-          textHighlight: "#3d2914",
+          tertiary: "#9aaa9a",
+          highlight: "rgba(212, 165, 116, 0.15)",
+          textHighlight: "#b3aa0288",
         },
       },
     },
@@ -57,25 +56,24 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
+        priority: ["frontmatter", "git", "filesystem"],
       }),
-      Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
-        keepBackground: false,
+      Plugin.Poetry(),
+      Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.SyntaxHighlighting(),
+      Plugin.ObsidianFlavoredMarkdown({
+        enableInHtmlEmbed: false,
+        parseTags: false,
+        mermaid: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "absolute", lazyLoad: true }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
-      Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
       Plugin.FolderPage(),
@@ -86,7 +84,10 @@ const config: QuartzConfig = {
       }),
       Plugin.Assets(),
       Plugin.Static(),
+      Plugin.Favicon(),
       Plugin.NotFoundPage(),
+      // // Comment out CustomOgImages to speed up build time
+      Plugin.CustomOgImages(),
     ],
   },
 }
