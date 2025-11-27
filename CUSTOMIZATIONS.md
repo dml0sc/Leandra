@@ -39,8 +39,7 @@ Per riattivare il link verso le etichette:
 
 **File**: `source/quartz/styles/custom.scss`
 
-**Valore attuale**: `right: -800px`
-**Valore originale**: `right: -600px`
+**Valore attuale**: `right: -600px` (originale)
 
 Cerca `#leaves` nel CSS per modificare la posizione.
 
@@ -103,7 +102,7 @@ Rimosso dal layout — H1 deve essere nel markdown del file.
 - Rimozione ArticleTitle dal layout — H1 viene dal markdown
 - Cambio titolo sito: "Leandra" → "Stefano Cracolici" → "La Finestra" → "Leandra". Avevo pensato a La finestra sul cortile – qui evocato anche dall'effetto sunset nel passaggio da tema light a tema dark.
 - Esperimenti con background image: provato pines.png, tornato a leaves.png
-- Spostamento leaves.png più a destra: `right: -800px` (era -600px)
+- Posizione leaves.png: `right: -600px` (valore originale)
 - Rimozione bullet points e padding dalle liste RecentNotes e Backlinks per allineamento corretto
 - Rimozione "Vedi 3 altro" — impostato `linkToMore: false`
 - Traduzioni italiane: "Link entranti" → "Agganci", "Tabella dei contenuti" → "Sommario"
